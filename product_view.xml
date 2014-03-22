@@ -117,7 +117,8 @@
                         <field name="talla_m"/>
                         <field name="talla_l"/>
                         <field name="talla_xl"/>
-						<field name="talla_2xl"/>
+						<field name="talla_2xl" 
+						on_change="onchange_total(talla_xs,talla_s,talla_m,talla_l,talla_xl,talla_2xl)"/>
 </xpath>
 <!--	</field> -->
 
