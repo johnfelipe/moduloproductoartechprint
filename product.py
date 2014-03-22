@@ -290,5 +290,15 @@ class sale_order_line(osv.osv):
 			prod = self.pool.get('product.descripcion').name_get(cr,uid,descripcion_sale,context=context)[0][1]
 			return {'value': {'name': prod}}
 		return {}
+	def onchange_total(self,cr,uid,ids,n1,n2,n3,n4,n5,n6,context={}):
+		sum=0
+		sum+=n1 or 0
+		sum+=n2 or 0
+		sum+=n3 or 0
+		sum+=n4 or 0
+		sum+=n5 or 0
+		sum+=n6 or 0
+		vals={'product_uom_qty':sum}
+		return {'value':vals}
 sale_order_line()
 
