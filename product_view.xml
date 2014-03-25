@@ -168,6 +168,7 @@
 
 	
 <!--<menuitem name="Descripcion productos" id="menu_descripcion" action="action_open_product_descripciom_form" parent="base.menu_product" sequence="2"/>-->
+<menuitem name="Productos" id="extend_products" action="product.product_normal_action_sell"  sequence="1"/>
 
 
     </data>
