@@ -302,6 +302,78 @@
                                 <separator string="Description for Quotations"/>
                                 <field name="description_sale" placeholder="note to be displayed on quotations..."/>
                             </page>
+                            
+                              <page string="Atributos del Producto">
+
+	             <separator string="Detalles de los Atributos"/>
+
+			<field name="descripcion_id"> 
+
+				<tree editable="button">
+
+					<field name="fecha"/>
+
+					<field name="estilos_id"/>
+
+					<field name="name"/>
+
+					<field name="equipos_id"/>
+
+					<field name="nombrecompleto_id"/>
+
+					<field name="nombrequipo_id"/>
+
+
+
+					<field name="etiqueta1_id"/>
+
+					<field name="etiqueta2_id"/>
+
+				</tree>
+
+			</field>
+
+		   </page>
+
+		   
+
+		   <page string="TELA">
+
+			<field name="tela_id"> 
+
+				<tree editable="button">
+
+					
+
+					
+
+
+
+					<field name="tela1_id"/>
+
+					<field name="color_id"/>
+
+					<field name="consumo_id"/>
+
+					<field name="tela2_id"/>
+
+					<field name="color2_id"/>
+
+					<field name="consumo2_id"/>
+
+					<field name="tela3_id"/>
+
+					<field name="color3_id"/>
+
+					<field name="consumo3_id"/>
+
+
+
+				</tree>
+
+			</field>
+
+		   </page>
                         </notebook>
 
 </sheet>
